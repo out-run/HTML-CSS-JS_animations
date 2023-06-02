@@ -1,0 +1,117 @@
+body{
+    background-color: #191919;
+    font-family: sans-serif;
+}
+
+.carte{
+    top: 30%;
+    left: 25%;
+    background: linear-gradient(321deg, rgba(248,255,128,1) 0%, rgba(255,164,27,1) 0%, rgb(255 0 155) 100%);
+    width: 45vh;
+    height: 60vh;
+    position: absolute;
+    border-radius: 3vh;
+    z-index: 3;
+    box-shadow: 1px 0px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+
+.bas_de_carte{
+    display: flex;
+    transform: translate(0vh, 42vh);
+    background-color: #232323cf;
+    padding: 4vh 4vh 4vh;
+    border-bottom-right-radius: 3vh;
+    border-bottom-left-radius: 3vh;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.carte_titres{
+    display: inline-grid;
+}
+
+.carte_h1{
+    color: white;
+    font-size: 5vh;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.carte_h2{
+    color: white;
+    font-size: 4vh;
+    margin: 0;
+    padding: 0;
+}
+
+.carte_btn{
+    color: white;
+    background: #0000001c;
+    font-size: 4vh;
+    border: 0vmin solid #ffffff00;
+    border-radius: 30%;
+    padding-left: 3vh;
+    padding-right: 3vh;
+}
+
+.carte_btn:hover{
+   background-color: #ffffff25;
+   /* box-shadow: 0px 0px 20px 10px #ffffff1f; */
+}
+
+.carte_btn:active{
+    box-shadow: inset 0px 0px 20px 10px #ffffff1f;
+}
+
+                                /* carte cover */
+
+.carte_cover{
+    width: 50vh;
+    height: 60vh;
+    background-color: #191919;
+    top: 30vh;
+    left: 10%;
+    position: absolute;
+    z-index: 2;
+}
+
+
+
+
+
+.carte2{
+    top: 30%;
+    left: 16%;
+    background: #2a2a2a;
+    width: 50vh;
+    height: 60vh;
+    position: absolute;
+    border-top-right-radius: 3vh;
+    border-bottom-right-radius: 3vh;
+    z-index: 1;
+    padding-left: 8vh;
+    padding-right: 4vh;
+}
+
+
+
+.carte_titres2{
+    display: inline-grid;
+}
+
+.carte_h12{
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+    margin-top: 5vh;
+}
+.p_carte2{
+    color: #ffffff;
+}
+
+.carte2_img{
+    width: 100%;
+    border-radius: 2vh;
+}
