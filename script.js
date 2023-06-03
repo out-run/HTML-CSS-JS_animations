@@ -1,3 +1,25 @@
+         /// header change de couleurs JS
+
+
+window.addEventListener('DOMContentLoaded', () => {
+  const head = document.querySelector('header');
+  const startColor = [42, 42, 42, 1]; 
+  const endColor = [30, 30, 30]; 
+  const height = 500;
+  
+window.addEventListener('scroll', () => {
+  const scrollPosition = window.scrollY;
+  const percentage = Math.min(scrollPosition / height, 5);
+  const newColor = startColor.map((value, index) => {
+  return value + (endColor[index] - value) * percentage;
+  });
+    head.style.backgroundColor = `rgb(${newColor.join(',')})`;
+  });
+})
+
+
+         /// carte qui glisse JS
+
 let carteBtn = document.getElementById("carte_btn_id");
 let carte2 = document.querySelector(".carte2");
 let carte = document.querySelector(".carte");

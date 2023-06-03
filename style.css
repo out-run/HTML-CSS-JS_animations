@@ -2,7 +2,82 @@ body{
     background-color: #191919;
     font-family: sans-serif;
 }
+                        /* HEADER */
 
+header
+{
+    z-index: 9999;
+    border-bottom-left-radius: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(42 42 42);
+    justify-content: space-between;
+    right: 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: 3vh;
+}
+
+#nav-logo
+{
+	text-decoration: none;
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#logo-a:hover
+{
+	transform: scale(1.09);
+	transition: transform 0.4s ease;
+}
+
+#nav_bouton:hover
+{
+	/* background-color: #838486; */
+	box-shadow: inset 0px 0px 20px 0px rgb(22 22 22);
+}
+
+
+ul
+{
+	margin: 0;
+	list-style: none;
+	color: #4b4b4b;
+	padding: 15px;
+	margin-right: 2px;
+	transition: ease;
+	display: contents;
+}
+
+nav li
+{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav li:hover
+{
+	transform: scale(1.05);
+	transition: transform 0.35s ease;
+}
+
+#nav-bar a
+{
+	color: white;
+	text-decoration: none;
+	background-color: #1f1f1f;
+	padding: 2vh;
+	border-radius: 1.5vh;
+	font-size: 15px;
+}
+
+
+
+                        /* CARTE JS */
 .carte{
     top: 30%;
     left: 25%;
@@ -62,7 +137,7 @@ body{
 }
 
 .carte_btn:active{
-    box-shadow: inset 0px 0px 20px 10px #ffffff1f;
+    box-shadow: inset 0px 0px 20px 10px #b3b3b31f;
 }
 
                                 /* carte cover */
